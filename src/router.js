@@ -2,10 +2,11 @@ import { createRouter, createWebHistory } from "vue-router";
 import useAuth from "./composable/useAuth";
 
 import Index from "./components/pages/index.vue";
-import About from "./components/pages/about.vue";
+import Videos from "./components/pages/videos.vue";
 import Login from "./components/pages/login.vue";
 import Secret from "./components/pages/secret.vue";
 import NotFound from "./components/pages/404.vue";
+import Music from "./components/pages/music.vue";
 
 const { isAuthenticated } = useAuth();
 
@@ -16,9 +17,14 @@ const routes = [
     component: Index,
   },
   {
-    path: "/about",
-    name: "About",
-    component: About,
+    path: "/videos",
+    name: "Videos",
+    component: Videos,
+  },
+  {
+    path: "/music",
+    name: "Music",
+    component: Music,
   },
   {
     path: "/login",

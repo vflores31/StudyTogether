@@ -16,8 +16,10 @@
 
 <template>
   <h1 class="text-6xl font-thin tracking-tighter text-center mt-8">
-    Cool Chat
+    Chat Room
   </h1>
+  <p>..</p>
+  <p>Chat with others to encourage better study habits, plan study sessions, discuss course work, etc!</p>
   <div
     class="
       min-h-[500px]

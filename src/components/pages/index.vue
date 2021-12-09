@@ -9,13 +9,14 @@ const { isAuthenticated, user } = useAuth();
   >
     <h2
       v-if="!isAuthenticated"
-      class="text-6xl tracking-tighter font-extralight"
+      class="text-6xl text-white tracking-tighter font-extralight"
     >
       Welcome
     </h2>
-    <h2 v-else class="text-6xl tracking-tighter font-extralight">
+    <h2 v-else class="text-6xl text-white tracking-tighter font-extralight">
       Welcome {{ user }}
     </h2>
-    <img src="../../assets/bgindex.png" alt="Hello BG" />
+        <p class="text-white">Hello all and welcome to Study Together! This website aims to bring together students who need a little push to complete their assignments. If you feel like you learn better while mirroring others or having a routined study/break session, then this is the place for you! Welcome and if you have any questions or concerns do not hesistate to reach out! :)</p>
+    <img src="../../assets/together.png" alt="Hello BG" />
   </div>
 </template>
