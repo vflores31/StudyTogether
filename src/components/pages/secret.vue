@@ -15,11 +15,11 @@
 </script>
 
 <template>
-  <h1 class="text-6xl font-thin tracking-tighter text-center mt-8">
+  <h1 class="text-6xl text-white font-thin tracking-tighter text-center mt-8">
     Chat Room
   </h1>
   <p>..</p>
-  <p>Chat with others to encourage better study habits, plan study sessions, discuss course work, etc!</p>
+  <p class="text-white">Chat with others to encourage better study habits, plan study sessions, discuss course work, etc!</p>
   <div
     class="
       min-h-[500px]

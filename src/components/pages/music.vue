@@ -32,7 +32,7 @@
         <p>..</p>
         <p class=text-white>Piano Music</p>
         <section>
-            <iframe src="https://open.spotify.com/embed/playlist/37i9dQZF1DX47ov4h4oSjW?utm_source=generator&theme=0" width="100%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+            <iframe src="https://open.spotify.com/embed/playlist/37i9dQZF1DX47ov4h4oSjW?utm_source=generatortheme=0" width="100%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
         </section>
     </div>
 </template>
